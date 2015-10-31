@@ -19,4 +19,4 @@ print()
 ###slice and dice for clean output
 print("Current temperature: "+x[34:36]+"\n")
 print("From Yahoo Weather:\n"+today[16:-4]+"\n")
-print(tomorrow[16:-4]+"\n")
+print(tomorrow[16:-4]+"\n") 

@@ -6,7 +6,7 @@ res = requests.get('https://weather.yahoo.com/united-states/washington/seattle-1
 if res.status_code != requests.codes.ok:
     print("May want to try downloading again - there was a problem.")
     exit()
-    
+
 ###create a BeautifulSoup object and search for pertinent elements, assign variables
 wSoup = bs4.BeautifulSoup(res.text)
 p_tags = wSoup.select('p')
@@ -19,4 +19,4 @@ print()
 ###slice and dice for clean output
 print("Current temperature: "+x[34:36]+"\n")
 print("From Yahoo Weather:\n"+today[16:-4]+"\n")
-print(tomorrow[16:-4]+"\n") 
+print(tomorrow[16:-4]+"\n")

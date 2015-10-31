@@ -1,4 +1,4 @@
-#!/home/cassius/anaconda3/bin/python3.4
+#!/home/USERNAME/anaconda3/bin/python3.4
 import requests, bs4
 
 ###download the weather report from Yahoo

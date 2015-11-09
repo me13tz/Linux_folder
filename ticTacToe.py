@@ -1,4 +1,4 @@
-#!/home/cassius/anaconda3/bin/python3.4
+#!/home/USERNAME/anaconda3/bin/python3.4
 
 def startgame():
     global theBoard, x_score, o_score

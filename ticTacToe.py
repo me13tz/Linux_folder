@@ -1,4 +1,4 @@
-#!/home/USERNAME/anaconda3/bin/python3.4
+#!/home/cassius/anaconda3/bin/python3.4
 
 def startgame():
     global theBoard, x_score, o_score
@@ -32,10 +32,12 @@ def o_wins():
     print('Player O Wins!')
     print()
     choice = input('Play Again? (y/n): ')
+    choice = choice.lower()
     if choice == 'y':
         print()
         startgame()
     else:
+        print('See ya!')
         print()
         exit()
  
@@ -46,10 +48,12 @@ def x_wins():
     print('Player X Wins!')
     print()
     choice = input('Play Again? (y/n): ')
+    choice = choice.lower()
     if choice == 'y':
         print()
         startgame()
     else:
+        print('See ya!')
         print()
         exit()
 

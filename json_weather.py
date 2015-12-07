@@ -23,7 +23,7 @@ apikey = 'YOUR_API_KEY_HERE'
 url = 'http://api.openweathermap.org/data/2.5/forecast/city?q={}&APPID=YOUR_API_KEY_HERE'.format(location)
 
 ###convert degrees Kelvin to Farenheit
-def k_to_f(temp):
+def k_to_f(T):
     tmp_k = wData[T]['main']['temp']
     tmp_f = tmp_k*(9/5)-459.67
     tmp_f = round(tmp_f,1)

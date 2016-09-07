@@ -23,5 +23,5 @@ smtpObj.login('YOUR_EMAIL_ADDR@yahoo.com', pwd_input)
 smtpObj.sendmail('YOUR_EMAIL_ADDR@yahoo.com', addr_input, msg_input)
 print('Sending email...')
 smtpObj.quit()
-print('Done.')
+print('Done.') 
 
